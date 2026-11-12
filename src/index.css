@@ -811,7 +811,7 @@ main{
 
 
 .mini-architecture {
-    width: 99%;
+    width: 100%;
     position: absolute;
     left: 0;
     bottom: 5%;
@@ -820,7 +820,6 @@ main{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    gap: 12px;
     opacity: 0;
 
     cursor: pointer;
@@ -989,7 +988,6 @@ main{
 }
 @media(min-width:992px){
   .div_main, .tela-jogo {
-  width: 70% !important;
   max-width: 1500px;
 }
 .objetivo{
